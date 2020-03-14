@@ -1,0 +1,13 @@
+.hero {
+  color: #f6ac55;
+  text-align: center;
+}
+
+.hero__logo {
+  width: 250px;
+  height: auto;
+}
+
+.hero__subheading {
+  margin: 10px;
+}
