@@ -1,0 +1,30 @@
+.Gotcard {
+    border: 1.5px rgb(255, 98, 0) solid;
+    border-radius: 1px;
+    width: 10rem;
+    height: 10rem;
+    margin: 2rem;
+    position: relative;
+    box-shadow: 2px 2px 5px rgb(77, 77, 77);
+    transition: all .2s ease-in-out;
+  }
+  
+  .Gotcard > .img-container {
+    height: 100%;
+    overflow: hidden;
+    background:rgb(255, 255, 255);
+  }
+  
+  .Gotcard > .img-container > img {
+    height: 100%;
+  }
+  
+  .Gotcard:hover {
+    box-shadow: 8px 8px 20px rgb(56, 56, 56);
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+  
+  .Gotcard:active {
+    transform: translate(1px, 1px);
+  }

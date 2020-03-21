@@ -3,6 +3,9 @@ import React, { useState } from "react";
 import "./Card.css";
 import "./CardList.css";
 
+import Heading from "./Heading";
+import CardList from "./CardList";
+
 
 const Card = props => {
     const [isFlipped, setIsFlipped] = useState(false);
@@ -14,6 +17,12 @@ const Card = props => {
     return (
         <div className="ContainerMap">
                 <h1>Welcome to Westeros</h1>
+                <div className="app">
+      <Heading />
+      <CardList />
+      </div> 
+
+  );
        
       <div className="card">
         <div

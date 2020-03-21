@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 
 export default function Quiz(props) {
   return (
-    <div id="bodyquiz">
-    <div id="quiz">
+    <div class="bodyquiz">
+    <div class="quiz">
 
       <div className="Quiz-header">
        3 // Who was to be married at the "Red Wedding"?
@@ -22,6 +22,7 @@ export default function Quiz(props) {
         <button className="Button"><Link to={"/quiz4"}>Submit</Link></button>
       </div>
 
+        {<div>{props.children}</div>}
     </div>
     </div>
   )

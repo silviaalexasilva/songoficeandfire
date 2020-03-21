@@ -15,6 +15,8 @@ class Landing extends Component {
                 <Link to="/Map">Westeros Map</Link>
                 <hr/>
                 <Link to="/Quiz">Quiz Game</Link>
+                <hr/>
+                <Link to="/Memory">Memory</Link>
             </div>
         )
     }

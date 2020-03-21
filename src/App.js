@@ -11,7 +11,8 @@ import Landing from './components/Landing';
 import Books from './components/Books';
 import Characters from './components/Characters';
 import Map from './components/Map';
-import Quiz from './components/Quiz/Quiz6';
+import Quiz from './components/Quiz/Quiz';
+import GotCards from './components/GotCards';
 
 
 class App extends Component {
@@ -48,6 +49,11 @@ class App extends Component {
                       exact
                       path="/Quiz"
                       render={ props => <Quiz />}
+                    />
+                      <Route
+                      exact
+                      path="/GotCards"
+                      render={ props => <GotCards />}
                     />
                   </Switch>
                 </Provider>

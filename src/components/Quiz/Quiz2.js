@@ -4,8 +4,9 @@ import { Link } from "react-router-dom";
 
 export default function Quiz(props) {
   return (
-    <div id="quiz">
-      
+    <div class="bodyquiz">
+      <div class="quiz">
+    
       <div className="Quiz-header">
       2 // How was Renly Baratheon killed?
       </div>
@@ -20,8 +21,9 @@ export default function Quiz(props) {
         <div className="ButtonId">
         <button className="Button"><Link to={"/quiz3"}>Submit</Link></button>
 
+        {<div>{props.children}</div>}
       </div>
-
+      </div>
     </div>
   )
 }

@@ -6,9 +6,10 @@ export default [
     seat: "The Eyrie",
     religion: "Faith of the Seven",
     words: "As High as Honor",
-    photo: require("./images/House-Arryn.png"),
+    photo: require("./components/images/House-Arryn.png"),
     alt: "House Arryn's Sigil"
   },
+
   {
     house: "House Baratheon",
     representation: "Stag",
@@ -16,7 +17,7 @@ export default [
     seat: "Storm's End",
     religion: "Faith of the Seven",
     words: "Ours is the Fury",
-    photo: require("./images/House-Baratheon.png"),
+    photo: require("./components/images/House-Baratheon.png"),
     alt: "House Baratheon's Sigil"
   },
   {
@@ -26,7 +27,7 @@ export default [
     seat: "Dreadfort",
     religion: "Old Gods",
     words: "Our Blades Are Sharp",
-    photo: require("./images/House-Bolton.png"),
+    photo: require("./components/images/House-Bolton.png"),
     alt: "House Bolton's Sigil"
   },
   {
@@ -36,7 +37,7 @@ export default [
     seat: "The Twins",
     religion: "Faith of the Seven",
     words: "We Stand Together",
-    photo: require("./images/House-Frey.png"),
+    photo: require("./components/images/House-Frey.png"),
     alt: "House Frey's Sigil"
   },
   {
@@ -46,7 +47,7 @@ export default [
     seat: "Pyke",
     religion: "Drowned God",
     words: "We Do Not Sow",
-    photo: require("./images/House-Greyjoy.png"),
+    photo: require("./components/images/House-Greyjoy.png"),
     alt: "House Greyjoy's Sigil"
   },
   {
@@ -56,7 +57,7 @@ export default [
     seat: "Casterly Rock",
     religion: "Faith of the Seven",
     words: "Hear Me Roar!",
-    photo: require("./images/House-Lannister.png"),
+    photo: require("./components/images/House-Lannister.png"),
     alt: "House Lannister's Sigil"
   },
   {
@@ -66,7 +67,7 @@ export default [
     seat: "Sunspear",
     religion: "Faith of the Seven",
     words: "Unbowed, Unbent, Unbroken",
-    photo: require("./images/House-Martell.png"),
+    photo: require("./components/images/House-Martell.png"),
     alt: "House Martell's Sigil"
   },
   {
@@ -76,7 +77,7 @@ export default [
     seat: "Winterfell",
     religion: "Old Gods",
     words: "Winter is Coming",
-    photo: require("./images/House-Stark.png"),
+    photo: require("./components/images/House-Stark.png"),
     alt: "House Stark's Sigil"
   },
   {
@@ -86,7 +87,7 @@ export default [
     seat: "Dragonstone",
     religion: "Valyrian",
     words: "Fire and Blood",
-    photo: require("./images/House-Targaryen.png"),
+    photo: require("./components/images/House-Targaryen.png"),
     alt: "House Targaryen's Sigil"
   },
   {
@@ -96,7 +97,7 @@ export default [
     seat: "Horn Hill",
     religion: "Faith of the Seven",
     words: "First in Battle",
-    photo: require("./images/House-Tarly.png"),
+    photo: require("./components/images/House-Tarly.png"),
     alt: "House Tarley's Sigil"
   },
   {
@@ -106,7 +107,7 @@ export default [
     seat: "Riverrun",
     religion: "Faith of the Seven",
     words: "Family, Duty, Honor",
-    photo: require("./images/House-Tully.png"),
+    photo: require("./components/images/House-Tully.png"),
     alt: "House Tully's Sigil"
   },
   {
@@ -116,7 +117,7 @@ export default [
     seat: "Highgarden",
     religion: "not mentioned",
     words: "Growing Strong",
-    photo: require("./images/House-Tyrell.png"),
+    photo: require("./components/images/House-Tyrell.png"),
     alt: "House Tyrell's Sigil"
   }
 ];

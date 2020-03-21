@@ -1,32 +1,22 @@
-.app {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  
-}
-
 
 .card {
   display: flex;
   align-items: center;
   justify-content: center;
-  perspective: 600px;
-  width: 20vw;
-  height: 20vw;
-  margin: 20px;
-  opacity: 0.9;
-  
+  perspective: 700px;
+  width: 29vh;
+  height: 27vh;
+  margin: 1vh;
 }
 
 .card__inner {
-  width: 100%;
-  height: 100%;
+  width: 29vh;
+  height: 27vh;
   transition: transform 0.5s;
   transform-style: preserve-3d;
   cursor: pointer;
   position: relative;
-  border: solid 1px #5e523a;
+
 }
 
 .card__inner.card__inner--is-flipped {
@@ -35,10 +25,11 @@
 
 .card__face {
   position: absolute;
-  width: 100%;
-  height: 100%;
+  width: 29vh;
+  height: 27vh;
+  opacity: 0.97;
   backface-visibility: hidden;
-  background-color: #cbbe9f;
+  background-color: #dfd4ba;
   background-size: 150% auto;
   color: #5e523a;
   border-radius: 2px;
@@ -56,34 +47,34 @@
   padding-bottom: 25px;
   box-sizing: border-box;
 
-  background-repeat: no-repeat;
 }
 
 .card__image {
   height: auto;
-  width: 10px;
-  opacity: 0.8;
+  width: 20vh;
+  
 
 }
 
 .card__face-heading {
   text-align: center;
   margin-top: 0;
-  margin-bottom: 5px;
+  margin-bottom: 2rem;
+  color:#ea6500;
 }
 
 .card__face--divider {
   border-bottom: solid 1px #5e523a;
-  width: 70%;
-  margin: 20px auto;
+  width: 85%;
+  margin: 2.2vh auto;
 }
 
 .card__face-content {
-  height: 18px;
+  height: 1.5vh;
   display: flex;
-  margin-left: 10px;
-  font-size: 16px;
-  margin-top: 10px;
+  margin-left: 0.5vh;
+  font-size: 1.7rem;
+  margin-top: 1vh;
 }
 
 .card__face-label {
@@ -91,18 +82,22 @@
   font-family: "GOT-font", Helvetica, sans-serif;
   line-height: 1vw;
   padding: 1vw;
+  
 }
 
 .card__face-message {
-  margin-top: 0;
-  margin-left: 5px;
+  color:rgb(2, 2, 2);
+  margin-left: 0vh;
+  font-size: 1.5rem;
+  line-height: 1vw;
+  padding: 0.9vw;
 }
 
 .card__face-house-words {
-  font-style: italic;
+  font-style: normal;
   margin-top: 0;
-  margin-bottom: 5px;
+  margin-bottom: 1vh;
   text-align: center;
-  font-size: 16px;
+  font-size: 2rem;
 }
 
