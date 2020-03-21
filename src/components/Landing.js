@@ -2,12 +2,11 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
 
-
 class Landing extends Component {
 
     render(){
         return (
-            <div className="Landing">
+            <div class="Landing">
                 <Link to="/Characters">Characters</Link>
                 <hr/>
                 <Link to="/Books">Books</Link>
@@ -15,8 +14,9 @@ class Landing extends Component {
                 <Link to="/Map">Westeros Map</Link>
                 <hr/>
                 <Link to="/Quiz">Quiz Game</Link>
-                <hr/>
-                <Link to="/Memory">Memory</Link>
+                <hr/>  
+                <Link to="/Quiz">Memory Card</Link>
+                <hr/>  
             </div>
         )
     }

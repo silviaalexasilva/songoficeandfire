@@ -2,7 +2,6 @@
 import React, { useState } from "react";
 import "./Card.css";
 import "./CardList.css";
-
 import Heading from "./Heading";
 import CardList from "./CardList";
 
