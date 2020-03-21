@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.75591b53.chunk.css",
+    "main.js": "/static/js/main.23945ee2.chunk.js",
+    "main.js.map": "/static/js/main.23945ee2.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/css/2.df9ef6f4.chunk.css": "/static/css/2.df9ef6f4.chunk.css",
+    "static/js/2.0aeb3122.chunk.js": "/static/js/2.0aeb3122.chunk.js",
+    "static/js/2.0aeb3122.chunk.js.map": "/static/js/2.0aeb3122.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.4f30449940fc94fb32554e22ab6214be.js": "/precache-manifest.4f30449940fc94fb32554e22ab6214be.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.df9ef6f4.chunk.css.map": "/static/css/2.df9ef6f4.chunk.css.map",
+    "static/css/main.75591b53.chunk.css.map": "/static/css/main.75591b53.chunk.css.map",
+    "static/media/index.scss": "/static/media/westeros_map.1123cbad.jpg",
+    "static/media/House-Arryn.png": "/static/media/House-Arryn.c7ad8f9c.png",
+    "static/media/House-Baratheon.png": "/static/media/House-Baratheon.33ab9b28.png",
+    "static/media/House-Bolton.png": "/static/media/House-Bolton.f42736c3.png",
+    "static/media/House-Frey.png": "/static/media/House-Frey.3895cb1f.png",
+    "static/media/House-Greyjoy.png": "/static/media/House-Greyjoy.760d3ae0.png",
+    "static/media/House-Lannister.png": "/static/media/House-Lannister.8b2f12e6.png",
+    "static/media/House-Martell.png": "/static/media/House-Martell.5c66d231.png",
+    "static/media/House-Stark.png": "/static/media/House-Stark.12922304.png",
+    "static/media/House-Targaryen.png": "/static/media/House-Targaryen.7f9b9add.png",
+    "static/media/House-Tarly.png": "/static/media/House-Tarly.a7b3a338.png",
+    "static/media/House-Tully.png": "/static/media/House-Tully.1d404dee.png",
+    "static/media/House-Tyrell.png": "/static/media/House-Tyrell.48bf5991.png",
+    "static/media/Quiz.css": "/static/media/wallpaper4.15fbc34b.jpg"
+  }
+}
