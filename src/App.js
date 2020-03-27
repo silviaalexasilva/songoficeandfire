@@ -12,7 +12,7 @@ import Books from './components/Books';
 import Characters from './components/Characters';
 import Map from './components/Map';
 import Quiz from './components/Quiz/Quiz';
-import GotCards from './components/GotCards';
+import Memory from './components/Memory';
 
 
 class App extends Component {
@@ -52,8 +52,8 @@ class App extends Component {
                     />
                       <Route
                       exact
-                      path="/GotCards"
-                      render={ props => <GotCards />}
+                      path="/Memory"
+                      render={ props => <Memory />}
                     />
                   </Switch>
                 </Provider>

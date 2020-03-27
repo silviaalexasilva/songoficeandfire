@@ -10,12 +10,15 @@ const Card = props => {
   };
 
   return (
+ 
+   
     <div className="app">
     <div className="card">
       
       <div className={`card__inner ${isFlipped ? "card__inner--is-flipped" : ""}`}
         onClick={flip}
       >
+         
         <div className="card__face card__face--front">
           <img className="card__image" src={props.photo} alt={props.alt} />
         </div>
@@ -45,6 +48,7 @@ const Card = props => {
       </div>
     </div>
     </div>
+    
   );
 };
 

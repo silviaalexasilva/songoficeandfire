@@ -15,7 +15,7 @@ class Landing extends Component {
                 <hr/>
                 <Link to="/Quiz">Quiz Game</Link>
                 <hr/>  
-                <Link to="/Quiz">Memory Card</Link>
+                <Link to="/Memory">Memory Card</Link>
                 <hr/>  
             </div>
         )

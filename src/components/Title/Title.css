@@ -1,0 +1,22 @@
+
+  .title {
+    background-color: orange;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 180px;
+    font-family: 'Game of Thrones', Helvetica, sans-serif;
+    color: #fff;
+    text-shadow: 0 0 5px #000;
+    margin-top: 10rem;
+}
+
+.container-fluid {
+    padding: 0 !important;
+}
+
+
+
+.title p {
+    text-align: center;
+}

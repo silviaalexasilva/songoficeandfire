@@ -2,6 +2,7 @@ import React from "react";
 import "./GotCard.css";
 
 const GotCard = props => (
+  <div id="app">
   <div 
     className="Gotcard"
     value={props.id} 
@@ -10,6 +11,7 @@ const GotCard = props => (
     <div className="img-container">
       <img alt={props.name} src={props.image} />
     </div>
+  </div>
   </div>
 );
 

@@ -5,6 +5,7 @@ import HOUSE_LIST from "../houseList";
 
 const ListCard = () => {
   return (
+ 
     <div className="card-list">
       {HOUSE_LIST.map((house, index) => (
         <Card
@@ -20,6 +21,7 @@ const ListCard = () => {
         />
       ))}
     </div>
+ 
   );
 };
 

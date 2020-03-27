@@ -13,7 +13,7 @@ export default class Navbar extends Component {
     render() {
         return (
             <Scrollchor to="#" animate={{offset: 0, duration: 300}}>
-                <div className="Navbar"></div>
+                <div className="Navbar"><h3>Valar Morghulis, Valar Dohaeris</h3></div>
             </Scrollchor>    
         )
     }

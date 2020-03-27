@@ -1,0 +1,57 @@
+.nav-pills {
+    margin: 1vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #000;
+    min-height: 10%;
+    text-align: center;
+    /* -webkit-box-shadow: 0 14px 28px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.22); */
+    box-shadow: 0 7px 20px rgb(240, 104, 0), 0 10px 10px rgba(0,0,0,.22);
+    color: #fff;
+    font-size: 1.6em;
+    font-weight: lighter;
+    z-index: 1000;
+    /* white-space: nowrap; */
+  }
+  
+  .nav-menu {
+  display: flex;
+  justify-content: space-around;
+  }
+  
+  .nav-menu >li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* border:thin solid #f00; */
+  }
+  
+  .nav-pills h2 {
+    color: #fff;
+    width: 10em;
+    margin-left: 0em;
+  }
+  
+  .nav-pills a:hover {
+    color: #fff;
+    
+  }
+  
+  .desc-normal {
+    color: #fff;
+  }
+  
+  .desc-correct {
+    color: #0f0;
+  }
+  
+  .desc-incorrect {
+    color: #f00;
+  }
+  
+  span {
+    color: orange;
+  
+  }

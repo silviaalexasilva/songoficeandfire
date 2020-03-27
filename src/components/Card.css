@@ -3,20 +3,21 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  perspective: 700px;
-  width: 29vh;
-  height: 27vh;
-  margin: 1vh;
+  width: 30vh;
+  height: 30vh;
+  float: left;
+ 
 }
 
 .card__inner {
-  width: 29vh;
-  height: 27vh;
+  width: 30vh;
+  height: 30vh;
   transition: transform 0.5s;
   transform-style: preserve-3d;
   cursor: pointer;
-  position: relative;
-
+  float: left;
+  padding: 0.2rem;
+  
 }
 
 .card__inner.card__inner--is-flipped {
@@ -25,35 +26,39 @@
 
 .card__face {
   position: absolute;
-  width: 29vh;
-  height: 27vh;
+  width: 30vh;
+  height: 30vh;
   opacity: 0.97;
   backface-visibility: hidden;
   background-color: #dfd4ba;
-  background-size: 150% auto;
-  color: #5e523a;
+  background-size: auto;
   border-radius: 2px;
+ margin: 1 0 0 0;
 }
+
 
 .card__face--front {
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+  margin: 1 0 0 0;
 }
+
+
 
 .card__face--back {
   transform: rotateY(180deg);
   padding-top: 20px;
   padding-bottom: 25px;
   box-sizing: border-box;
-
+  margin: 1 0 0 0;
+  display:block;
 }
 
 .card__image {
-  height: auto;
+  height: 24vh;
   width: 20vh;
-  
-
+  margin: 1 0 0 0;
 }
 
 .card__face-heading {
@@ -66,21 +71,21 @@
 .card__face--divider {
   border-bottom: solid 1px #5e523a;
   width: 85%;
-  margin: 2.2vh auto;
+  margin: 2.1vh auto;
 }
 
 .card__face-content {
   height: 1.5vh;
   display: flex;
-  margin-left: 0.5vh;
-  font-size: 1.7rem;
+  margin-left: 0vh;
+  font-size: 1.1rem;
   margin-top: 1vh;
 }
 
 .card__face-label {
   font-size: 1rem;
   font-family: "GOT-font", Helvetica, sans-serif;
-  line-height: 1vw;
+  line-height: 0.5vw;
   padding: 1vw;
   
 }
@@ -89,7 +94,7 @@
   color:rgb(2, 2, 2);
   margin-left: 0vh;
   font-size: 1.5rem;
-  line-height: 1vw;
+  line-height: 0.5vw;
   padding: 0.9vw;
 }
 
@@ -98,6 +103,6 @@
   margin-top: 0;
   margin-bottom: 1vh;
   text-align: center;
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 

@@ -22,7 +22,7 @@ const Card = props => {
       </div> 
 
   );
-       
+  <div className="app">
       <div className="card">
         <div
           className={`card__inner ${isFlipped ? "card__inner--is-flipped" : ""}`}
@@ -57,9 +57,11 @@ const Card = props => {
         </div>
       </div>
       </div>  
-    );
-   
-  };
+      </div>  
+       
+    ); 
+}
+
   
   export default Card;
 

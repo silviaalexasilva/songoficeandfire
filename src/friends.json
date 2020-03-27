@@ -11,12 +11,12 @@
   },
   {
     "id": 3,
-    "image": "/assets/images/GOT03.jpg",
+    "image": "./images/GOT03.jpg",
     "clicked": false
   },
   {
     "id": 4,
-    "image": "/assets/images/GOT04.jpg",
+    "image": "../images/GOT04.jpg",
     "clicked": false
   },
   {
