@@ -10,20 +10,20 @@ const Navigation = props => (
             </div>
         </li>
         <li 
-        className={props.message.indexOf('incorrectly') !== -1 ? 
+        className={props.message.indexOf('incorrectly') !== -1 ?
         "desc-incorrect" :
-    props.message.indexOf('incorrectly') !== -1 ?
-    "desc-correct" :
-    "desc-normal" }
-    >
+        props.message.indexOf('correctly') !== -1 ?
+            "desc-correct" :
+            "desc-normal"}
+>
         <div>
             {props.message}
         </div>
     </li>
     <li>
     <div>
-    Score:<span>{props.score}</span> | Top Score: {props.topScore}
-                </div>
+    <h2>Score: <span>{props.score}</span> | Top Score: {props.topScore}</h2>
+    </div>
     </li>
 
     </ul>

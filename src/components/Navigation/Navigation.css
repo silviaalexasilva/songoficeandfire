@@ -52,11 +52,11 @@
     color: #f00;
   }
   
-  span {
+.nav-menu span {
     color: #fff;
-    width: 30vw;
     font-weight: lighter;
-    font-size: 1.4em;
+    font-size: 1em;
    font-family: Helvetica, sans-serif;
   
   }
+
