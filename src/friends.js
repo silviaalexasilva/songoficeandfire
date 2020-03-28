@@ -187,17 +187,27 @@ export default [
   },
   {
     "id": 38,
-    "image": require("./assets/images/GOT31.jpg"),
+    "image": require("./assets/images/GOT38.jpg"),
     "clicked": false
   },
   {
     "id": 39,
-    "image": require("./assets/images/GOT20.jpg"),
+    "image": require("./assets/images/GOT39.jpg"),
     "clicked": false
   },
   {
     "id": 40,
-    "image": require("./assets/images/GOT04.jpg"),
+    "image": require("./assets/images/GOT40.jpg"),
     "clicked": false
-  }  
+  },
+  {
+    "id": 41,
+    "image": require("./assets/images/GOT41.jpg"),
+    "clicked": false
+  },
+  {
+    "id": 42,
+    "image": require("./assets/images/GOT42.jpg"),
+    "clicked": false
+  }
 ]
