@@ -59,6 +59,7 @@ import "./Card.css";
             if(this.state.url === ''){  //Show Main
     
                 return (
+                    <div className="app">
                   <div className="ContainerCharacters">
                   <h1>Characters of ASOIAF</h1>
                   <div className="main">
@@ -77,15 +78,17 @@ import "./Card.css";
                        }
                     </div>
                     </div>
+                    </div>
                 )
             } else {    //Show more
                 
                  return (
+                    <div className="appl">
                      <div className="col-sm-6">
                         <br />
                         
                         <div className='cursor-pointer' onClick={this.handleClickShowMore.bind(this, '', '')}>
-                            <i className="fa fa-chevron-left fa-2" aria-hidden="true"></i> Back to main
+                            <i className="fa fa-chevron-left fa-2" aria-hidden="true"></i><p>Back to main</p>
                          </div>
                         <br /><br />
                          
@@ -133,7 +136,7 @@ import "./Card.css";
                 
                     </div>
                 
-                    
+                      </div> 
                 )
             }
         }

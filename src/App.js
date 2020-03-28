@@ -12,7 +12,7 @@ import Books from './components/Books';
 import Characters from './components/Characters';
 import Map from './components/Map';
 import Quiz from './components/Quiz/Quiz';
-import Memory from './components/Memory';
+import Memory from './Memory';
 
 
 class App extends Component {

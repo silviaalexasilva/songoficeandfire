@@ -4,4 +4,14 @@ body {
   min-height: 100vh;
 }
 
+tml, body, #root {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
 
+.row {
+  margin-top: 18rem;
+  
+  }

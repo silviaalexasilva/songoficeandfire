@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
-import './GotCard/GotCard.css';
-import Navigation from "./Navigation"; // This connects the Nav.js file in the Components folder to the App.js file
+import './App.css';
+
+import Navigation from "./components/Navigation"; // This connects the Nav.js file in the Components folder to the App.js file
 // This connects the Title.js file in the Components folder to the App.js file
-import Container from "./Container"
-import GotCard from "./GotCard"; // This connects the FriendCard.js file in the Components folder to the App.js file
-import friends from "../friends.json"
+import Container from "./components/Container"
+import FriendCard from "./components/FriendCard"; // This connects the FriendCard.js file in the Components folder to the App.js file
+import friends from "./friends.js"
 import { Grid, Row, Col } from 'react-flexbox-grid';
 
 var containerStyle = {
@@ -22,7 +23,7 @@ function shuffleFriends(array) {
 
 class Start extends Component {
   state = {
-    message:"Click any image to begin!",
+    message:"",
     friends,
     currentScore: 0,
     topScore: 0,
@@ -83,11 +84,11 @@ class Start extends Component {
 
         <Container style={containerStyle}>
 
-          <Row className="rowl">
+          <Row>
 
             {this.state.friends.map(friend => (
               <Col size="md-6 sm-5">
-                <GotCard
+                <FriendCard
                   key={friend.id}
                   handleClick={this.handleClick}
                   handleIncrement={this.handleIncrement}

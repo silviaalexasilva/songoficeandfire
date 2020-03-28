@@ -10,7 +10,21 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    
   }
+
+  .appl {
+    height: 1000px;
+    width: 100%;
+    background-image: url('./assets/images/4.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: row;
+  }
+
+
   
 .App-logo {
   height: 40vmin;
@@ -91,10 +105,11 @@ a {
     width: 50%;
     background-color: #1c1c1c;
     border-bottom: 1px solid rgba(164, 160, 159, 0.5);
-  color: #d3c3a0e7;
+  color: #000000e7;
 }
 
 table{
+  background-color: #daccc3;
    margin-top: 2em;
     border-bottom: 1px solid rgb(237, 106, 86);
 }
@@ -112,7 +127,13 @@ table{
 }
 .cursor-pointer{
     cursor: pointer;
-   padding-top: 0vw;
+   padding-top: 1vw;
+   
+}
+
+.cursor-pointer p {
+color: white;
+ 
 }
 
 .loader {
@@ -160,6 +181,7 @@ table{
   margin: 2vw 3vw 0 0;
   padding: 0;
 }
+
 .MuiAppBar-positionFixed {
   top: 0;
   left: auto;
@@ -181,7 +203,7 @@ table{
 }
 
 .fa-chevron-left:before {
-  content: "\F053";
+  content: rgba(250, 250, 250, 0.2);
 }
 
 .main-image {
@@ -321,4 +343,14 @@ left: 0;
 .Result-title {
   font-size: 50px;
   color: white;
+}
+
+.ContainerCharacter {
+  height: 100%;
+  width: 100%;
+  background-image: url('./assets/images/4.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
 }

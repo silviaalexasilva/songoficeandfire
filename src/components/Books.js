@@ -111,7 +111,7 @@ class Book extends Component {
            
         } else {    //Show more
              return (
-            
+                <div className="Books-container">
                  <div className="col-sm-6">
                     <br />
                      
@@ -168,7 +168,7 @@ class Book extends Component {
                     </div>
                     <div className="main-image"></div> 
                     </div>
-              
+                    </div>
             )
         }   
         

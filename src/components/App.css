@@ -12,10 +12,6 @@
   
   }
   
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
 .App-header {
   background-color: #0d0e0e;
@@ -59,6 +55,10 @@ a {
 }*/
 
 
+.row {
+  margin-top: rem;
+  
+  }
 
 .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
     color: rgb(157, 157, 157);
@@ -68,10 +68,7 @@ a {
     color: #fff;
     cursor: pointer;
 }
-.app-logo{
-    padding: 50px;
-    max-width: 100%;   
-}
+
 .main-box {
     height:25vh;
     margin-top: 2vh;
@@ -112,7 +109,8 @@ table{
 }
 .cursor-pointer{
     cursor: pointer;
-   padding-top: 0vw;
+   padding-top: 10vw;
+   color: white;
 }
 
 .loader {

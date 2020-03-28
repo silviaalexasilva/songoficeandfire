@@ -6,7 +6,7 @@ const Navigation = props => (
     <ul className="nav nav-pills nav-justified nav-menu">
         <li>
             <div>
-                <h2>A Card Memory Game</h2>
+                <h2>A Card Memory Game // Click any image to begin!</h2>
             </div>
         </li>
         <li 
@@ -21,9 +21,9 @@ const Navigation = props => (
         </div>
     </li>
     <li>
-        <div>
-            Score: <span>{props.score}</span> | Top Score: {props.topScore}
-        </div>
+    <div>
+    Score:<span>{props.score}</span> | Top Score: {props.topScore}
+                </div>
     </li>
 
     </ul>

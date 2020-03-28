@@ -1,10 +1,11 @@
 import React from "react";
-import "./GotCard.css";
+import "./FriendCard.css";
 
-const GotCard = props => (
+
+const FriendCard = props => (
   <div id="app">
   <div 
-    className="Gotcard"
+    className="cardl"
     value={props.id} 
     onClick={() => props.handleClick(props.id)}
   >
@@ -15,4 +16,4 @@ const GotCard = props => (
   </div>
 );
 
-export default GotCard;
+export default FriendCard;
